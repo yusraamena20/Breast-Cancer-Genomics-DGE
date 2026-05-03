@@ -1,4 +1,4 @@
-# Breast Cancer Genomics — Differential Gene Expression Analysis
+# Breast Cancer Genomics - Differential Gene Expression Analysis
 
 Differential gene expression (DGE) analysis of breast cancer vs. normal tissue samples from the **GEO dataset GSE15852**, using R and Bioconductor. The analysis identifies genes significantly up- or down-regulated in tumor tissue and visualizes sample clustering and expression patterns.
 
@@ -21,13 +21,13 @@ Breast cancer involves widespread dysregulation of gene expression. By comparing
 
 ## 📊 Results
 
-### PCA — Sample Clustering
+### PCA - Sample Clustering
 
 Principal Component Analysis shows clear separation between tumor and normal samples along PC1, confirming that the largest axis of variation in the data corresponds to disease state. This validates sample quality and the biological signal in the dataset.
 
 ![PCA Plot](PCA_Plot.png)
 
-### Top 50 Differentially Expressed Genes — Heatmap
+### Top 50 Differentially Expressed Genes - Heatmap
 
 The heatmap displays the 50 most significantly differentially expressed genes, hierarchically clustered by expression profile. Tumor samples (top cluster) show consistent upregulation of proliferation-associated genes and downregulation of tissue-specific markers relative to normal tissue.
 
@@ -61,5 +61,5 @@ source("breast_cancer_DGE_analysis.R")
 
 ## 👩‍🔬 Author
 
-**Yusra Amena** — Biological Sciences (Genetics & Cell Biology), SIUE  
+**Yusra Amena** - Biological Sciences (Genetics & Cell Biology), SIUE  
 [LinkedIn](https://www.linkedin.com/in/yusra-amena-a6a991248/) · [GitHub](https://github.com/yusraamena20)
